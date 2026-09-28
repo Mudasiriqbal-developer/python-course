@@ -158,3 +158,110 @@
 #     print(i)
 
 # print("End of code")
+
+
+# part 4
+# list
+
+# marks = [98, 87, 89, 87, 87, 'A']
+
+# print(marks, type(marks))
+
+# # lengh of list
+# print(len(marks))
+
+# index
+# print(marks[2])
+# print(marks[-1]) # last index value when u don't now the last value index
+
+
+# Sclicing a list
+
+# print(marks[0:3])
+# print(marks[-3:])
+
+# for i in marks:
+#   print(i)
+
+
+# # append => add new value in the last of the list
+# marks.append(50)
+# print(marks)
+
+# # insert => add new value on the specific location in the list
+# marks.insert(1, 40)
+# print(marks)
+
+# print(98 in marks)
+
+# clear the list
+# marks.clear()
+# print(marks)
+
+# Tuple - immutable # its works like list but add some extra features
+
+# marks = (98, 87, 89, 87, 87, 'A')
+
+# print(marks.count(87))
+# print(type(marks))
+
+
+# set data type # its store the unique data.
+
+# marks = {98, 97, 96, 95, 96, 95}
+
+# print(len(marks))
+
+# for i in marks:
+#   print(i)
+
+
+# Dictionary {key => value} like words meaning
+
+# marks = {"math": 99, "phy": 98, "che":88}
+
+# print(marks, type(marks))
+
+# print(marks["phy"])
+
+# marks["eng"] = 95
+
+# print(marks["eng"])
+
+
+# for key in marks:
+#   print(key, marks[key])
+
+
+# <--------- Part 4 --------------->
+
+# Function
+
+# def sum(a, b):
+#   print(a + b)
+
+# sum(123, 321)
+
+# new_price +=  (price * 0.18)
+
+# def calc_gst(price):
+#   new_price = price + (price * 0.18)
+#   print(new_price)
+
+# calc_gst(100)
+# calc_gst(1024)
+
+
+# module function
+# import math
+
+# print(dir(math))
+
+# from math import sqrt, log2
+
+# print(log2(16))
+
+import random
+
+# print(random.random())
+print(random.randint(1, 10))
